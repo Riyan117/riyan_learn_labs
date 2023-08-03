@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Riyan JavaScript</title>
+  <script>
+    // Mendefinisikan script JavaScript di dalam tag <script>
+    // di dalam bagian head atau body
+    function hitungJumlah() {
+      // Mendefinisikan variable pertama
+      var angka = 10;
+
+      // Mendefinisikan variable kedua
+      var tulisan = "saya belajar javascript";
+
+      // Mendefinisikan variable ketiga
+      var angkaKetiga = 5;
+
+      // Menjumlahkan variable pertama dan variable ketiga
+      var hasil = angka + angkaKetiga;
+
+      // Menampilkan hasil penjumlahan di dalam elemen dengan id "hasil"
+      document.getElementById("hasil").innerHTML = hasil;
+    }
+  </script>
+</head>
+<body>
+  <h1>Riyan JS Syntax</h1>
+  <button onclick="hitungJumlah()">Jumlahkan</button>
+  <p>Hasil penjumlahan:</p>
+  <p id="hasil"></p>
+</body>
+</html>
